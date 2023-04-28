@@ -1,0 +1,381 @@
+:root {
+  --texto-preto: #222;
+  --tetxo-cinza: #7c7c7c;
+  --texto-cinza-claro: #a4a4a4;
+  --branco: #ffffff;
+  --branco-cinza: #f7f7f7;
+  --azul-escuro: #122ab2;
+  --azul: #2c70ff; 
+  --purple: #ae81ff;
+  --pink: #f9265e;
+  --blue: #66d9eb;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: var(--texto-preto);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.super-info-bg {
+  background: var(--azul-escuro);
+}
+
+.super-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 96rem;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.super-info a, .super-info p {
+  color: var(--branco);
+  margin: 0 1rem 1rem 1rem;
+}
+
+header {
+  background: var(--azul);
+}
+
+header .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+
+header .menu a {
+  color: var(--branco);
+}
+
+header .menu .menu-logo a {
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin: 0 1rem;
+}
+
+header .menu nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .menu nav ul li a {
+  font-size: 2rem;
+  display: block;
+  padding: 1rem;
+}
+
+header .menu nav ul li a:hover {
+  color: var(--azul-escuro);
+}
+
+.introducao {
+  font-size: 4.8rem;
+  max-width: 96rem;
+  line-height: 1;
+  margin: 0 auto;
+  padding: 6rem 1rem;
+}
+
+.sobre {
+  border-top: .2rem solid var(--azul);
+  border-bottom: .2rem solid var(--azul);
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 6rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre .sobre-info {
+  flex: 2 1 30rem;
+  margin: 0 1rem;
+}
+
+.sobre .sobre-info h1 {
+  font-size: 4.8rem;
+  margin-bottom: .8rem;
+}
+
+.sobre .sobre-info p {
+  font-size: 2rem;
+  line-height: 1.4;
+  margin-bottom: 1.6rem;
+  color: var(--tetxo-cinza);
+}
+
+.sobre .sobre-img {
+  flex: 1 1 16rem;
+  margin: 0 1rem;
+}
+
+.produtos {
+  max-width: 96rem;
+  margin: 6rem auto;
+}
+
+.produtos h1 {
+  font-size: 4.8rem;
+  margin: 0 1rem 6rem 1rem;
+}
+
+.produtos .produtos-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.produtos .produtos-container .produtos-item {
+  flex: 1 1 17.5rem;
+  margin: 1rem;
+}
+
+.produtos .produtos-container .produtos-item h2 {
+  font-size: 4.8rem;
+  color: var(--texto-cinza-claro);
+  background: var(--branco-cinza);
+  padding: 6rem 2rem;
+}
+
+.purple {
+  border-top: .8rem solid var(--purple);
+}
+
+.pink {
+  border-top: .8rem solid var(--pink);
+}
+
+.blue {
+  border-top: .8rem solid var(--blue);
+}
+
+.preco {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  background: var(--branco-cinza);
+  padding: 6rem;
+}
+
+.preco .preco-item {
+  flex: 1 1 26rem;
+  border: .4rem solid var(--branco);
+  margin: 1rem;
+  padding: 2rem;
+}
+
+.preco .preco-item h2 {
+  font-size: 4.8rem;
+  color: var(--texto-cinza-claro);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.preco .preco-item span {
+  max-width: 30rem;
+  margin: 2rem auto;
+  display: block;
+  font-size: 4.8rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem 0 .5rem 0;
+  border-top: .4rem solid var(--branco);
+  border-bottom: .4rem solid var(--branco);
+}
+
+.preco .preco-item span sup {
+  font-size: 2.4rem;
+}
+
+.preco .preco-item ul {
+  max-width: 30rem;
+  margin: 2rem auto;
+  font-size: 2rem;
+  font-style: italic;
+  color: var(--tetxo-cinza);
+}
+
+.preco .preco-item ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.preco .preco-item ul li::after {
+  content: '';
+  display: block;
+  width: .6rem;
+  height: .6rem;
+  border-radius: 50%;
+  background: var(--azul);
+}
+
+.preco .preco-item a {
+  max-width: 30rem;
+  display: block;
+  margin: 2rem auto;
+  padding: 1.5rem 0;
+  border: .4rem solid;
+  color: var(--texto-preto);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+	.preco {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+.qualidade {
+  max-width: 96rem;
+  margin: 6rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qualidade .qualidade-item {
+  flex: 1 1 30rem;
+  margin: 2rem 1rem;
+}
+
+.qualidade .qualidade-item h2 {
+  font-size: 3.6rem;
+  color: var(--texto-cinza-claro);
+  margin-bottom: 2rem;
+}
+
+.qualidade .qualidade-item h2::before {
+  content: '';
+  display: inline-block;
+  width: .8rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.qualidade .qualidade-item:nth-of-type(3n+1) h2::before {
+  background: var(--purple);
+}
+
+.qualidade .qualidade-item:nth-of-type(3n+2) h2::before {
+  background: var(--pink);
+}
+
+.qualidade .qualidade-item:nth-of-type(3n+3) h2::before {
+  background: var(--blue);
+}
+
+.qualidade .qualidade-item p {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: var(--tetxo-cinza);
+}
+
+.newsletter {
+  background: var(--branco-cinza);
+  padding: 6rem calc((100% - 96rem) / 2);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter .newsletter-info {
+  flex: 1 1 24rem;
+  margin: 0 1rem;
+}
+
+.newsletter .newsletter-info h1 {
+  font-size: 4.8rem;
+  color: var(--texto-cinza-claro);
+}
+
+.newsletter .newsletter-info p {
+  font-size: 2rem;
+  font-style: italic;
+  max-width: 23rem;
+  color: var(--tetxo-cinza);
+  margin-bottom: 1rem;
+}
+
+.newsletter .newsletter-form {
+  flex: 2 1 26rem;
+  margin: 0 1rem;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter .newsletter-form input {
+  flex: 3 1 26rem;
+  font-size: 2rem;
+  color: var(--tetxo-cinza);
+  font-style: italic;
+  border: .4rem solid var(--azul);
+  background: transparent;
+  padding: 1.5rem 1rem;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+.newsletter .newsletter-form button {
+  flex: 1 1 26rem;
+  font-size: 3.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: var(--azul);
+  color: var(--branco);
+  cursor: pointer;
+  border: 0;
+  padding: 1.5rem 1rem;
+  font-family: 'Poppins', 'sans-serif';
+}
+
+@media (max-width: 600px) {
+	.newsletter .newsletter-form button {
+		font-size: 1.5em;
+	}
+}
+
+footer {
+	display: flex;
+	background: var(--azul);
+	height: 8rem;
+	align-items: center;
+}
+
+footer p {
+	flex: 1;
+	text-align: center;
+	font-size: 3.6rem;
+	color: var(--azul-escuro);
+}
