@@ -4,7 +4,7 @@
 
 ## SOBRE ESTE PROJETO!
 
-Este é um desafio proposto pelo professor [André Rafael](https://www.youtube.com/origamid) no final do curso de fundamentos de CSS Flexbox Layout, onde aprendi muito sobre esta técnica e consegui implementá-la, não só neste desafio como em meus projetos pessoais. Este desafio é o resultado de tudo que aprendi em aula.
+Este é um desafio proposto pelo professor [André Rafael](https://www.youtube.com/origamid) no final do curso "CSS Flexbox", onde aprendi muito sobre esta técnica e consegui implementá-la, não só neste desafio, mas como em meus projetos pessoais. Este desafio é o resultado de tudo que aprendi em aula.
 
 ## Tecnologias usadas
 
