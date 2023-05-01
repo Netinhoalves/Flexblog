@@ -12,7 +12,7 @@ Este é um desafio proposto pelo professor [André Rafael](https://www.youtube.c
 * CSS3
 * CSS FlexBox
 * Media-queries
-* Responsive Website
+* Layout Responsivo
 
 ## Acessar minha resolução
 
