@@ -1,4 +1,4 @@
-# FlexBlog ([Click Here](https://netinhoalves.github.io/Flexblog/))
+# FlexBlog ([Clique Aqui](https://netinhoalves.github.io/Flexblog/))
 
 ![Design preview for the Fylo dark theme landing page challenge](./img/preview-desktop.png)
 
